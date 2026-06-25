@@ -1,0 +1,172 @@
+// Exhibition data — DI vizijos: algoritminiai žaidimai (v2 — portraits)
+window.EXHIBITION = {
+  title: "DI vizijos",
+  subtitle: "algoritminiai žaidimai",
+  dates: "2025 m. balandžio 15 d. – rugpjūčio 31 d.",
+  venue: "Energetikos ir technikos muziejus",
+  curator: "Aida Vėželienė",
+  intro: "Žaidybiškumas mene — tai reiškinys, lydintis žmoniją nuo pat jos kūrybinės veiklos pradžios. Vaizdų generavimas su DI — tai savotiškos žaidimo aikštelės, kur susilieja menas ir mokslas. Žmogus suteikia viziją ir emocijas, o dirbtinis intelektas — beribes technines galimybes. Jums pristatomi parodos darbai — nuo kinematografinio siužeto iki siurrealistinės vizijos, atskleidžia dirbtinio intelekto ir kūrėjo įvairiapusiškumą."
+};
+
+window.AUTHORS = [
+  {
+    id: "aida",
+    index: "01",
+    firstName: "Aida",
+    lastName: "Vėželienė",
+    role: "menininkė, režisierė",
+    cycle: "Gyvybės gijos",
+    tagline: "Archetipinės vilties, išgyvenimo ir atgimimo temos per juodai baltų algoritminių vaizdų seriją.",
+    essay: [
+      "Kūrinių ciklas „Gyvybės gijos\" — tai juodai baltų, algoritminių vaizdų serija, kurioje per metaforas ir simbolius nagrinėjamos archetipinės vilties, išgyvenimo ir atgimimo temos. Tai — vizualus filosofinis apmąstymas apie stiprų ryšį tarp visų gyvų būtybių ir jas jungiančią viltį.",
+      "Sąmoningai rinkausi minimalistinę estetiką, juodai baltą vaizdų formatą, personažų išryškinimą, siekdama sukurti emocingą atmosferą, turinį, kuris nepriklauso nuo konkretaus laikmečio tendencijų ir yra nepavaldus laikui.",
+      "Būdama ne tik menininkė, bet ir režisierė, šiuo vizualinių esė ciklu siekiu žiūrovus įtraukti į introspektyvią kelionę, pakviesti įsiklausyti į vaizdų pasakojimus, pajusti mūsų trapią, efemerišką egzistenciją. Ar mes esame tik atsitiktiniai stebėtojai, ar mūsų egzistencija turi gilesnę, transcendencinę prasmę? Kiekvienoje, lyg filmo sustabdytoje akimirkoje, slypi ne tik metaforos, bet ir nematoma gija, audžianti mūsų gyvenimo ir laiko audinį, kuriame susipina realybė ir fantazija, praeitis ir ateitis.",
+      "Todėl šis mano kūrinių ciklas gali būti suprantamas kaip paskata grįžti prie esminių dalykų, atsiribojant nuo informacijos triukšmo, arba per vaizdus atskleisti emocijas ir baimes, kurios slypi šešėliuose."
+    ],
+    works: ["Anti-utopia", "Bunnita", "Camera", "diptikas Judėjimo mirażai", "Paukščių globėjas", "Rara avis", "Šaknis", "Viltis po sparnu", "Žuvies rinkėja"],
+    annotation: "assets/annotations/anno-aida.jpg",
+    portrait: "assets/portraits/aida.jpg",
+    gallery: [
+      { src: "assets/works/aida/01.jpg", title: "Gyvybės gijos I", format: "A2" },
+      { src: "assets/works/aida/02.jpg", title: "Gyvybės gijos II", format: "A2" },
+      { src: "assets/works/aida/03.jpg", title: "Gyvybės gijos III", format: "A2" },
+      { src: "assets/works/aida/04.jpg", title: "Gyvybės gijos IV", format: "A2" },
+      { src: "assets/works/aida/05.jpg", title: "Gyvybės gijos V", format: "A2" },
+      { src: "assets/works/aida/06.jpg", title: "Gyvybės gijos VI", format: "A2" },
+      { src: "assets/works/aida/07.jpg", title: "Gyvybės gijos VII", format: "A2" },
+      { src: "assets/works/aida/08.jpg", title: "Gyvybės gijos VIII", format: "A2" },
+      { src: "assets/works/aida/kubas1-01.jpg", title: "Kubas I / siena 1", format: "50×50 cm" },
+      { src: "assets/works/aida/kubas1-02.jpg", title: "Kubas I / siena 2", format: "50×50 cm" },
+      { src: "assets/works/aida/kubas1-03.jpg", title: "Kubas I / siena 3", format: "50×50 cm" },
+      { src: "assets/works/aida/kubas1-04.jpg", title: "Kubas I / siena 4", format: "50×50 cm" },
+      { src: "assets/works/aida/kubas1-05.jpg", title: "Kubas I / siena 5", format: "50×50 cm" },
+      { src: "assets/works/aida/kubas1-06.jpg", title: "Kubas I / siena 6", format: "50×50 cm" },
+      { src: "assets/works/aida/kubas2-01.jpg", title: "Kubas II / siena 1", format: "50×50 cm" },
+      { src: "assets/works/aida/kubas2-02.jpg", title: "Kubas II / siena 2", format: "50×50 cm" },
+      { src: "assets/works/aida/kubas2-03.jpg", title: "Kubas II / siena 3", format: "50×50 cm" },
+      { src: "assets/works/aida/kubas2-04.jpg", title: "Kubas II / siena 4", format: "50×50 cm" },
+      { src: "assets/works/aida/kubas2-05.jpg", title: "Kubas II / siena 5", format: "50×50 cm" },
+      { src: "assets/works/aida/kubas2-06.jpg", title: "Kubas II / siena 6", format: "50×50 cm" }
+    ]
+  },
+  {
+    id: "adas",
+    index: "02",
+    firstName: "Adas",
+    lastName: "Vasiliauskas",
+    role: "profesionalus fotografas, DI menininkas",
+    cycle: "Nu, literaliai",
+    tagline: "Lietuviški frazeologizmai ir posakiai, vizualizuoti pažodžiui — kolekcija, kuri verčia ir juoktis, ir susimąstyti.",
+    essay: [
+      "Įsivaizduokite pasaulį, kur „vilkas ėriuko kailyje\" nėra tiesiog apgavikas su nekalta šypsena, o tikrų tikriausias plėšrūnas, sugebėjęs įsisprausti į mažą, pūkuotą ėriuko kostiumėlį ir bandantis įtikinamai bliauti!",
+      "Mano DI vaizdų projektas „Nu, literaliAI\" prasidėjo vieną lietingą antradienį, kai supratau, kad mes, lietuviai, kasdien sakome absurdiškiausių dalykų ir to nesusimąstome. „Akis bado\", „piktas kaip širšė\" ar „grybą pjauna\" — ir viskas atrodo normalu, kol neįsigilini.",
+      "Pasitelkęs dirbtinį intelektą, pradėjau vizualizuoti šiuos posakius pažodžiui. Rezultatas? Šmaikščių, keistų ir kartais net šiek tiek nepatogių vaizdų kolekcija, kuri verčia ir juoktis, ir susimąstyti.",
+      "Menkiau su dirbtiniu intelektu susipažinę žiūrovai dažnai pagalvoja, jog vaizdo generatoriui užtenka paduoti posakį ir tik spėk rinktis iš puikių vaizdų. Visgi tikrasis kūrybos procesas nėra toks romantiškas. Viskas prasideda nuo idėjos, kaip vienas ar kitas posakis galėtų atrodyti vizualiai, ir tuomet keliasdešimt, o kartais ir šimtas generacijų, norint gauti tai, kas atspindi mano kūrybinę viziją.",
+      "Šis projektas — ne tik juokas juoko dėlei. Tai ir tam tikra kelionė per mūsų tautinį lingvistinį paveldą. Juk kiekvienas frazeologizmas — tarsi mažas kultūrinis artefaktas, pasakojantis istorijas apie tai, kaip mūsų protėviai matė pasaulį."
+    ],
+    works: ["Akis bado", "Kabina makaronus", "Kačiokas", "Kėlėsi su gaidžiais", "Padarė iš musės drambį", "Pakrovė malkų", "Pripylė iš akies", "Senas krienas", "Verkia duonelė tinginio valgoma", "Vilkas ėriuko kailyje"],
+    annotation: "assets/annotations/anno-adas.jpg",
+    portrait: "assets/portraits/adas.jpg",
+    gallery: [
+      { src: "assets/works/adas/01.jpg", title: "Akis bado", format: "A2" },
+      { src: "assets/works/adas/02.jpg", title: "Kabina makaronus", format: "A2" },
+      { src: "assets/works/adas/03.jpg", title: "Kačiokas", format: "A2" },
+      { src: "assets/works/adas/04.jpg", title: "Kėlėsi su gaidžiais", format: "A2" },
+      { src: "assets/works/adas/05.jpg", title: "Padarė iš musės drambį", format: "A2" },
+      { src: "assets/works/adas/06.jpg", title: "Pakrovė malkų", format: "A2" },
+      { src: "assets/works/adas/07.jpg", title: "Pripylė iš akies", format: "A2" },
+      { src: "assets/works/adas/08.jpg", title: "Senas krienas", format: "A2" },
+      { src: "assets/works/adas/09.jpg", title: "Verkia duonelė tinginio valgoma", format: "A2" },
+      { src: "assets/works/adas/10.jpg", title: "Vilkas ėriuko kailyje", format: "A2" }
+    ]
+  },
+  {
+    id: "joana",
+    index: "03",
+    firstName: "Joana",
+    lastName: "Katina",
+    role: "dėstytoja, programuotoja, skaitmeninio meno kūrėja, fotografė",
+    cycle: "Technologinės haliucinacijos",
+    tagline: "Siurrealistinių vaizdinių serija — kur žmogaus pasąmonė ir skaitmeninių technologijų tikrovė persipina.",
+    essay: [
+      "Kolekcija „Technologinės haliucinacijos\" — tai siurrealistinių vaizdinių serija, kurioje susilieja žmogaus pasąmonė ir skaitmeninių technologijų paveikta tikrovė. Šie darbai — tai mano ir dirbtinio intelekto sukonstruoti pasauliai, kuriuose išnyksta riba tarp organiškos būties ir skaitmeninės vizijos. Šis ciklas gali būti būdas pamatyti, kaip keičiasi mūsų mintys ir jausmai einant nuo kūrinio prie kūrinio.",
+      "Remdamasi savo fotografijos ir vizualiųjų menų patirtimi, eksperimentuoju su įvairiais DI stiliais, neapsiribodama viena estetika. Naudoju neįprastus derinius, kad sukurčiau kontrastus, kurie pabrėžia kuriamą naratyvą. Todėl, manau, kad kiekvienas mano kūrinys yra išskirtinis, atspindintis mano vidines nuotaikas ir išgyvenimus, kuriuos pateikiu per fantastikos žanrą. Šia kolekcija noriu pakviesti tapti mano pasaulio dalimi."
+    ],
+    works: ["Pelkių žvalgas", "Likimo pranašystė", "Nevykęs triukas", "Išlydėtuvės", "Juodos mintys", "Naminis gyvūnėlis", "Sapnų sargybiniai", "Nežemiški giesmininkai", "Šokis su gyvate", "Viską matanti", "Gąsdinanti vizija", "Minčių išsiveržimas", "Gelmių vaisius", "Velniškas ilgesys", "Metamorfozė"],
+    annotation: "assets/annotations/anno-joana.jpg",
+    portrait: "assets/portraits/joana.jpg",
+    gallery: [
+      { src: "assets/works/joana/01.jpg", title: "Pelkių žvalgas", format: "A2" },
+      { src: "assets/works/joana/02.jpg", title: "Likimo pranašystė", format: "A2" },
+      { src: "assets/works/joana/03.jpg", title: "Nevykęs triukas", format: "A2" },
+      { src: "assets/works/joana/04.jpg", title: "Išlydėtuvės", format: "A2" },
+      { src: "assets/works/joana/05.jpg", title: "Juodos mintys", format: "A2" },
+      { src: "assets/works/joana/06.jpg", title: "Naminis gyvūnėlis", format: "A2" },
+      { src: "assets/works/joana/07.jpg", title: "Sapnų sargybiniai", format: "A2" },
+      { src: "assets/works/joana/08.jpg", title: "Nežemiški giesmininkai", format: "A2" },
+      { src: "assets/works/joana/09.jpg", title: "Šokis su gyvate", format: "A2" },
+      { src: "assets/works/joana/10.jpg", title: "Viską matanti", format: "A2" },
+      { src: "assets/works/joana/11.jpg", title: "Gąsdinanti vizija", format: "A2" },
+      { src: "assets/works/joana/12.jpg", title: "Minčių išsiveržimas", format: "A2" },
+      { src: "assets/works/joana/13.jpg", title: "Gelmių vaisius", format: "A2" },
+      { src: "assets/works/joana/14.jpg", title: "Velniškas ilgesys", format: "A2" },
+      { src: "assets/works/joana/15.jpg", title: "Metamorfozė", format: "A2" }
+    ]
+  },
+  {
+    id: "gerda",
+    index: "04",
+    firstName: "Gerda",
+    lastName: "Lukoševičiūtė",
+    role: "dailininkė, dailės pedagogė",
+    cycle: "Klajonės",
+    tagline: "DI kaip draugas, pagalbininkas, bendradarbis — ir begalybė techninių galimybių, stilių ir išgyvenimų.",
+    essay: [
+      "Dirbtinį intelektą atradau kaip netikėtą pramogą, pajvairinusią mano laisvalaikį ir praturtinusią naujais potyriais. Tai — kitas pasaulis, stebinantis įdomumu, įtraukumu ir galimybių gausa. DI gali būti įžūlus, nenuspėjamas, fantastiškas, realistiškas, spalvingas, minimalistinis ir netgi paradoksalus. Tai — begalybė techninių galimybių, stilių ir išgyvenimų, kuriuos galima patirti kuriant vaizdus.",
+      "DI — tai draugas, pagalbininkas, bendradarbis ir patarėjas. Tačiau be žmogaus (kūrėjo) kontrolės jo galimybės gali tapti sunkiai prognozuojamos.",
+      "Šioje parodoje noriu pasidalinti savo darbais, patirtais bendradarbiaujant su DI. Tikiuosi, kad tai sudomins, įkvėps ar tiesiog suteiks keletą nekasdieniškų akimirkų. Parodoje pristatomi kūriniai: triptikas „Virsmas\", „Dykumos\", „Klajonės\", „Veneros gimimo\" interpretacija."
+    ],
+    works: ["Virsmas (triptikas)", "Dykumos", "Klajonės", "Veneros gimimo interpretacija"],
+    annotation: "assets/annotations/anno-gerda.jpg",
+    portrait: "assets/portraits/gerda.jpg",
+    gallery: [
+      { src: "assets/works/gerda/01.jpg", title: "Klajonės I", format: "A2" },
+      { src: "assets/works/gerda/02.jpg", title: "Klajonės II", format: "A2" },
+      { src: "assets/works/gerda/03.jpg", title: "Klajonės III", format: "A2" },
+      { src: "assets/works/gerda/04.jpg", title: "Klajonės IV", format: "A2" }
+    ]
+  },
+  {
+    id: "zydrunas",
+    index: "05",
+    firstName: "Žydrūnas",
+    lastName: "Strumila",
+    role: "dizaineris, DI lektorius",
+    cycle: "Elektroninių sapnų siluetai",
+    tagline: "Fantastikos ir fantazijos išraiška — paslapties ir paslėptų istorijų atmosfera, kurioje siluetai prašosi taisomi.",
+    essay: [
+      "„Elektroninių sapnų siluetai\" — tai fantastikos ir fantazijos išraiška, kurioje skleidžiasi paslapties ir paslėptų istorijų atmosfera. Kūriniai suteikia galimybę ištrūkti iš kasdienybės rėmų ir pasinerti į vizijas, skatinančias interpretuoti bei ieškoti gilesnių prasmių. Vaizdas tampa ne tik atvaizdu, bet ir idėjos ar emocijos išraiška.",
+      "Kurdamas šiuos kūrinius, siekiau atskleisti kitą, ilgiau išliekančią dirbtinio intelekto pusę, atsiskleidžiančią per subtilias, paslėptas ir neakivaizdžias metaforas. Norėjau, kad parodos lankytojai pajustų savo pamirštų sapnų aidus. Nors netaisyklingi siluetai prašosi taisomi, atvaizduotos situacijos skleidžiasi į pasakojimus, kurie kviečia įsigilinti ir plėtoti juos vis kitaip. Atrinkti kūriniai, galbūt tik vieni iš daugelio darbų, į kuriuos nesiliauju žiūrėti, norėdamas atrasti vis naujų detalių.",
+      "„Elektroninių Sapnų Siluetuose\" sutiksite „Stebėtoją\", „Pasirinkimą\", „Pamestą norą\", „Vėją\", „Žvejį\", „Mandagumą\", „Laivą\"."
+    ],
+    works: ["Stebėtojas", "Pasirinkimas", "Pamestas noras", "Vėjas", "Žvejys", "Mandagumas", "Laivas"],
+    annotation: "assets/annotations/anno-zydrunas.jpg",
+    portrait: "assets/portraits/zydrunas.jpg",
+    gallery: [
+      { src: "assets/works/zydrunas/01.jpg", title: "Stebėtojas", format: "A2" },
+      { src: "assets/works/zydrunas/02.jpg", title: "Pasirinkimas", format: "A2" },
+      { src: "assets/works/zydrunas/03.jpg", title: "Pamestas noras", format: "A2" },
+      { src: "assets/works/zydrunas/04.jpg", title: "Vėjas", format: "A2" },
+      { src: "assets/works/zydrunas/05.jpg", title: "Žvejys", format: "A2" },
+      { src: "assets/works/zydrunas/06.jpg", title: "Mandagumas", format: "A2" },
+      { src: "assets/works/zydrunas/07.jpg", title: "Laivas", format: "A2" },
+      { src: "assets/works/zydrunas/08.jpg", title: "Elektroninių sapnų siluetas VIII", format: "A2" },
+      { src: "assets/works/zydrunas/09.jpg", title: "Elektroninių sapnų siluetas IX", format: "A2" },
+      { src: "assets/works/zydrunas/10.jpg", title: "Elektroninių sapnų siluetas X", format: "A2" },
+      { src: "assets/works/zydrunas/11.jpg", title: "Elektroninių sapnų siluetas XI", format: "A2" },
+      { src: "assets/works/zydrunas/12.jpg", title: "Elektroninių sapnų siluetas XII", format: "A2" },
+      { src: "assets/works/zydrunas/13.jpg", title: "Elektroninių sapnų siluetas XIII", format: "A2" },
+      { src: "assets/works/zydrunas/14.jpg", title: "Elektroninių sapnų siluetas XIV", format: "A2" }
+    ]
+  }
+];
